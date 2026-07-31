@@ -1,5 +1,5 @@
 
-# <Project_Title>
+# Weather-Uncertainty-Aware Indian Crop Yield Prediction Using Climatic Disturbance Indicators
 <br>
 <p align="center">
 
@@ -9,13 +9,13 @@
 
 <p align="center">
 
-  <strong><Intern Name 1></strong><sup>1A</sup><br>
+  <strong>Dharani Krishna Sahithi</strong><sup>1A</sup><br>
 
-  <strong><Intern Name 2></strong><sup>2B</sup><br>
+  <strong>Dorothy</strong><sup>2B</sup><br>
 
-  <strong><Intern Name 3></strong><sup>3C</sup><br>
+  <strong>Rahul Kumar Yadav</strong><sup>3C</sup><br>
 
-  <strong><Intern Name 4></strong><sup>4D</sup>
+  <strong>Swagato Lahiri</strong><sup>4D</sup>
 
 </p>
 
@@ -65,21 +65,21 @@
 
 ---
 
-<sup>A</sup> <Intern 1 Institute Name>;  
+<sup>A</sup> BMS Institute of Technology & Management, Bengaluru;  
 
-<sup>B</sup> <Intern 2 Institute Name>;  
+<sup>B</sup> Jawaharlal Nehru University, Delhi;  
 
-<sup>C</sup> <Intern 3 Institute Name>;  
+<sup>C</sup> Birla Institute of Technology, Mesra;  
 
-<sup>D</sup> <Intern 4 Institute Name>
+<sup>D</sup> Dr. B C Roy Engineering College, DGP
 
-<sup>1</sup> <intern1.email@example.com>;  
+<sup>1</sup> sahithidharani0404@gmail.com;  
 
-<sup>2</sup> <intern2.email@example.com>;  
+<sup>2</sup> dorothybisht@gmail.com;  
 
-<sup>3</sup> <intern3.email@example.com>;  
+<sup>3</sup> rahulyadavbitmesra4@gmail.com;  
 
-<sup>4</sup> <intern4.email@example.com>;  
+<sup>4</sup> 24f3000419@ds.study.iitm.ac.in;  
 
 <sup>*</sup> sroy@ideas-tih.org
 
@@ -97,7 +97,7 @@ The repository includes source code, datasets, notebooks, documentation, reports
 
 ## Project Title
 
-**<Enter Final Project Title Here>**
+**Weather-Uncertainty-Aware Indian Crop Yield Prediction Using Climatic Disturbance Indicators**
 
 ---
 
@@ -105,28 +105,29 @@ The repository includes source code, datasets, notebooks, documentation, reports
 
 - Machine Learning / Deep Learning Project  
 
-- Software Development Project  
-
-- Data Analysis Project  
-
 - Research-Oriented Project  
-
-- Other: <Mention here>
 
 ---
 
-## Problem Statement
+# Problem Statement
 
-<Write the complete problem statement here.>
+Accurate crop yield forecasting is hindered by the **uncertainty of climatic disturbances** such as the El Niño–Southern Oscillation (ENSO), Western Disturbances, and Cloudburst events. These phenomena strongly affect rainfall, temperature, and water availability, yet their unpredictable occurrence and intensity make reliable forecasting difficult.
 
-The problem statement should clearly explain:
+This problem is critical because **agricultural productivity and food security** depend on robust yield predictions. Farmers need forecasts to plan irrigation and crop choices, while policymakers rely on them for climate‑resilient agricultural planning. Without accounting for weather uncertainty, forecasts risk being misleading or incomplete.
 
-- What problem is being addressed
+To address this, the project develops a **modular, weather‑uncertainty‑aware forecasting framework** that integrates:
+- **ENSO forecasting module**: predicts Niño 3.4 SST anomalies and phase probabilities (El Niño, Neutral, La Niña).  
+- **Western Disturbance forecasting**: captures seasonal patterns and intensity using lagged meteorological features and time‑series models.  
+- **Cloudburst prediction**: handles extreme class imbalance to identify localized high‑impact rainfall events.  
 
-- Why the problem is important
+These outputs are combined with **district‑level crop yield data** from ICRISAT to form a unified prediction pipeline. Machine learning models (Random Forest, SARIMAX) and ablation studies evaluate the contribution of each vertical.
 
-- What data, system, or method will be used
+The expected solution is an **uncertainty‑aware crop yield forecasting system** that delivers:
+- Probabilistic yield predictions at the district level  
+- Improved accuracy over baseline models (≈18% RMSE reduction)  
+- Region‑specific insights (e.g., ENSO dominance in South India, WD importance in North India, Cloudburst impact in Eastern India)  
 
-- What output or solution is expected from the project
+This framework serves as a **decision‑support tool** that enhances resilience in agricultural planning by explicitly modelling weather uncertainty.
+
 
 ---
