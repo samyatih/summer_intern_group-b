@@ -6,4 +6,4 @@ result = predict_enso(
     region="Bengaluru"
 )
 
-print(result)
+print(result.to_string(index=False))
